@@ -10,24 +10,60 @@ header{
   background-color: #FF9A4B;
 }
 
+.main-visual{
+  width: 960px;
+  margin:50px auto;
+  display:flex;
+  justify-content:space-between;
+}
+
 .main-visual-contents{
   width: 300px;
   background-color: #EEEEEE;
+  Position :relative;
+  padding-top: 10px;
+
+}
+
+.step-image1{
+  height: 150px;
+  margin:0px 10px;
+  background-image: url(img/flow01.png);
+  background-size: 280px 150px;
 }
 
 .step-name{
   width: fit-content;
   color:#FFF;
   background-color: #FF9A4B;
+  Position :absolute;
+  top: 0;
+  left: 0;
 }
 
 h3{
-  margin: 15px 0 5px 0;
+  margin: 15px 10px 5px 10px;
 }
 
 .main-visual-text{
   flex-wrap: wrap;
-  font-size: 13px;
+  font-size: 12px;
+  margin: 0px 10px;
+  line-height: 2;
+}
+
+.step-image2{
+  height: 150px;
+  margin:0px 10px;
+  background-image: url(img/flow02.png);
+  background-size: 280px 150px;
+}
+
+.step-image3{
+  height: 150px;
+  margin:0px 10px;
+  background-image: url(img/flow03.png);
+  background-size: 280px 150px;
 }
 
 footer{
